@@ -12,6 +12,10 @@ class loginController extends Controller
     {
         return view('admin.auth.login');
     }
+    public function forgotpassword()
+    {
+        return view('admin.auth.forgotpassword');
+    }
     public function logout()
     {
         Auth::logout(); // Logs out the user

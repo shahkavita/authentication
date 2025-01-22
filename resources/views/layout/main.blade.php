@@ -9,7 +9,7 @@
       </div>
 
     </div>
-  
+  @yield('script')
     <!-- content-wrapper ends -->
  @include('layout.footer')
  

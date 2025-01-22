@@ -71,7 +71,7 @@
                       </div>
                       <div id="errorMessage" style="color: red;"></div>
                 <div class="form-group">
-                  <a href="#!" class="form-group">Forgot password?</a>
+                  <a href="{{route('forgotpassword')}}" class="form-group">Forgot Password?</a>
                   </div>
                       <div class="form-group">
                          <p class="form-group">Don't have an account?

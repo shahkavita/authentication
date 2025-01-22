@@ -74,7 +74,7 @@ $('#register').on("click",function(e){
                 text: response.message,
                 icon: 'success',
                 showConfirmButton: false,
-                timer: 4000 // Message will show for 4 seconds
+                timer: 1000 // Message will show for 4 seconds
             }).then(() => {
                 // Redirect to index page after 4 seconds
                 window.location.href ='admin/index';// Change this to your desired page URL
